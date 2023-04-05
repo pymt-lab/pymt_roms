@@ -1,0 +1,30 @@
+[library.Roms]
+language = "python"
+library = "bmi_roms"
+header = ""
+entry_point = "BmiRoms"
+
+
+[build]
+undef_macros = []
+define_macros = []
+libraries = []
+library_dirs = []
+include_dirs = []
+extra_compile_args = []
+
+[package]
+name = "pymt_roms"
+requirements = [""]
+
+[info]
+github_username = "gantian127"
+package_author = "Tian Gan"
+package_author_email = "gantian127@gmail.com"
+package_license = "MIT License"
+summary = "PyMT plugin for ROMS model data"
+
+[ci]
+python_version = ["3.9"]
+os = ["linux", "mac", "windows"]
+
