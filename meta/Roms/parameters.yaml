@@ -8,7 +8,7 @@ filename:
 
 download:
   name: Download data
-  description: Indicate whether to download and save the data as a netCDF file with the provided URL of the ROMS model data.
+  description: Indicate whether to download and save the data as a netCDF file with the provided URL
   value:
     type: bool
     default: False
