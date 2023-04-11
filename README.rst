@@ -27,12 +27,14 @@ pymt_roms
         :target: https://github.com/gantian127/pymt_roms/actions/workflows/black.yml
 
 
-pymt_roms is a package that converts `bmi_roms package  <https://github.com/gantian127/bmi_roms>`_ datasets into a reusable,
+pymt_roms is a package that converts `bmi_roms <https://github.com/gantian127/bmi_roms>`_ package into a reusable,
 plug-and-play data component for `PyMT <https://pymt.readthedocs.io/en/latest/?badge=latest>`_ modeling framework
 developed by Community Surface Dynamics Modeling System (`CSDMS <https://csdms.colorado.edu/wiki/Main_Page>`_).
-This allows `ROMS model <https://www.myroms.org/>`_ data (currently support 3 and 4 dimensional data) to be easily coupled with other datasets
-or models that expose a `Basic Model Interface <https://bmi.readthedocs.io/en/latest/>`_.
+This allows `ROMS model <https://www.myroms.org/>`_ datasets
+to be easily coupled with other datasets or models that expose a `Basic Model Interface <https://bmi.readthedocs.io/en/latest/>`_.
 
+The current implementation supports 2D - 4D ROMS output datasets defined with geospatial and/or time dimensions (e.g.,
+dataset defined with dimensions as [time, s_rho, eta_rho, xi_rho])
 
 ========= ===================================
 Component PyMT
@@ -59,17 +61,22 @@ into which to install it. This can be done with,
   conda create -n pymt python=3
   conda activate pymt
 
-Once the `conda-forge` channel has been enabled, `pymt` can be installed with:
+.. Once the `conda-forge` channel has been enabled, `pymt` can be installed with:
+
+Once the environment is activated, `pymt` can be installed with the following command.
+Please note that the `pymt_roms` requires the development version of `pymt` (e.g., v1.3.2dev0).
 
 .. code::
 
-  conda install pymt
+    pip install git+https://github.com/csdms/pymt.git
 
-It is possible to list all of the versions of `pymt` available on your platform with:
+..  conda install pymt
 
-.. code::
+.. It is possible to list all of the versions of `pymt` available on your platform with:
 
-  conda search pymt --channel conda-forge
+.. .. code::
+
+..  conda search pymt --channel conda-forge
 
 --------------------
 Installing pymt_roms
