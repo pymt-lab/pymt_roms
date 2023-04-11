@@ -2,7 +2,7 @@
     :align: center
     :scale: 16%
     :alt: pymt_roms
-    :target: https://pymt_roms.readthedocs.io/
+    :target: https://pymt-roms.readthedocs.io/en/latest/
 
 
 `pymt_roms <https://github.com/gantian127/pymt_roms/>`_ is a package that converts
@@ -12,7 +12,7 @@ developed by Community Surface Dynamics Modeling System (`CSDMS <https://csdms.c
 This allows `ROMS model <https://www.myroms.org/>`_ datasets
 to be easily coupled with other datasets or models that expose a `Basic Model Interface <https://bmi.readthedocs.io/en/latest/>`_.
 
-The current implementation supports 2D - 4D ROMS output datasets defined with geospatial and/or time dimensions (e.g.,
+The current implementation supports 2D, 3D and 4D ROMS output datasets defined with geospatial and/or time dimensions (e.g.,
 dataset defined with dimensions as [time, s_rho, eta_rho, xi_rho])
 
 
@@ -79,10 +79,10 @@ You can learn more details about the coding example from the
     import matplotlib.pyplot as plt
     import numpy as np
 
-    from pymt.models import roms
+    from pymt.models import Roms
 
     # initiate a data component
-    data_comp = roms()
+    data_comp = Roms()
     data_comp.initialize('config_file.yaml')
 
     # get variable info

@@ -33,7 +33,7 @@ developed by Community Surface Dynamics Modeling System (`CSDMS <https://csdms.c
 This allows `ROMS model <https://www.myroms.org/>`_ datasets
 to be easily coupled with other datasets or models that expose a `Basic Model Interface <https://bmi.readthedocs.io/en/latest/>`_.
 
-The current implementation supports 2D - 4D ROMS output datasets defined with geospatial and/or time dimensions (e.g.,
+The current implementation supports 2D, 3D and 4D ROMS output datasets defined with geospatial and/or time dimensions (e.g.,
 dataset defined with dimensions as [time, s_rho, eta_rho, xi_rho])
 
 ========= ===================================
