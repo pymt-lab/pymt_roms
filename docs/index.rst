@@ -42,7 +42,11 @@ Please note that the `pymt_roms` requires the development version of `pymt` (e.g
 
 .. code::
 
-    pip install git+https://github.com/csdms/pymt.git
+    # install pymt stable release and dependency packages
+    $ conda install pymt
+
+    # update to pymt dev version
+    $ pip install git+http://github.com/csdms/pymt
 
 ..  conda install pymt
 
