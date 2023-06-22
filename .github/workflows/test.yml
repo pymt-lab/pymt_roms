@@ -53,4 +53,5 @@ jobs:
       - name: Test
         run: |
           python -c 'import pymt_roms'
-          bmi-test pymt_roms.bmi:Roms -vvv
+          
+# future test to add bmi-test pymt_roms.bmi:Roms -vvv

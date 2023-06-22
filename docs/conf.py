@@ -48,9 +48,9 @@ source_suffix = ".rst"
 master_doc = "index"
 
 # General information about the project.
-project = u"pymt_roms"
-copyright = u"2023, Tian Gan"
-author = u"Tian Gan"
+project = "pymt_roms"
+copyright = "2023, Tian Gan"
+author = "Tian Gan"
 
 # The version info for the project you're documenting, acts as replacement
 # for |version| and |release|, also used in various other places throughout
@@ -66,7 +66,7 @@ author = u"Tian Gan"
 #
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
-language = 'en'
+language = "en"
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
@@ -79,7 +79,7 @@ pygments_style = "sphinx"
 # If true, `todo` and `todoList` produce output, else they produce nothing.
 todo_include_todos = False
 
-#The name of an image file (relative to this directory) to place at the top
+# The name of an image file (relative to this directory) to place at the top
 # of the sidebar.
 html_logo = "_static/powered-by-logo-header.png"
 
@@ -129,7 +129,7 @@ latex_elements = {
 # (source start file, target name, title, author, documentclass
 # [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, "pymt_roms.tex", u"pymt_roms Documentation", u"Tian Gan", "manual"),
+    (master_doc, "pymt_roms.tex", "pymt_roms Documentation", "Tian Gan", "manual"),
 ]
 
 
@@ -137,7 +137,7 @@ latex_documents = [
 
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
-man_pages = [(master_doc, "pymt_roms", u"pymt_roms Documentation", [author], 1)]
+man_pages = [(master_doc, "pymt_roms", "pymt_roms Documentation", [author], 1)]
 
 
 # -- Options for Texinfo output ----------------------------------------
@@ -149,7 +149,7 @@ texinfo_documents = [
     (
         master_doc,
         "pymt_roms",
-        u"pymt_roms Documentation",
+        "pymt_roms Documentation",
         author,
         "pymt_roms",
         "One line description of project.",
