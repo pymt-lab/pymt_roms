@@ -38,7 +38,7 @@ into which to install it. This can be done with,
 .. Once the `conda-forge` channel has been enabled, `pymt` can be installed with:
 
 Once the environment is activated, `pymt` can be installed with the following command.
-**Please note that the `pymt_roms` requires the development version of `pymt` (e.g., v1.3.2dev0).**
+**Please note that pymt_roms requires pymt version 1.3.2 or higher**
 
 .. code::
 
