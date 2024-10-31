@@ -61,27 +61,19 @@ into which to install it. This can be done with,
   conda create -n pymt python=3
   conda activate pymt
 
-.. Once the `conda-forge` channel has been enabled, `pymt` can be installed with:
-
-Once the environment is activated, `pymt` can be installed with the following command.
-**Please note that the `pymt_roms` requires the development version of `pymt` (e.g., v1.3.2dev0)**.
+Once the `conda-forge` channel has been enabled, `pymt` can be installed with:
 
 .. code::
 
-    # install pymt stable release and dependency packages
-    $ conda install pymt
+   conda install pymt
 
-    # update to pymt dev version
-    $ pip install git+http://github.com/csdms/pymt
+It is possible to list all of the versions of `pymt` available on your platform with:
 
+.. code::
 
-..  conda install pymt
+    conda search pymt --channel conda-forge
 
-.. It is possible to list all of the versions of `pymt` available on your platform with:
-
-.. .. code::
-
-..  conda search pymt --channel conda-forge
+**Please note that pymt_roms requires pymt version 1.3.2 or higher**
 
 --------------------
 Installing pymt_roms

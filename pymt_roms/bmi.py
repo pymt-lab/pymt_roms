@@ -1,7 +1,6 @@
 from __future__ import absolute_import
 
 import pkg_resources
-
 from bmi_roms import BmiRoms as Roms
 
 Roms.__name__ = "Roms"
